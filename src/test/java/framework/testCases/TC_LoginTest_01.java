@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import framework.pageObjects.LoginPage;
- 
+
 public class TC_LoginTest_01 extends framework.BaseClass.BaseClass {
 
 	@Test
