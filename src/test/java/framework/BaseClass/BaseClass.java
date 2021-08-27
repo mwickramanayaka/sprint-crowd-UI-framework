@@ -77,7 +77,6 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get(baseURL);
-		logger.info("This test is on Thread : "+Thread.currentThread().getId());
 		logger.info("URL is Opened");
 
 	}

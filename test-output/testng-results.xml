@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-28T01:26:23 IST" name="SeleniumJava.Hybridframework" finished-at="2021-08-28T01:26:31 IST" duration-ms="7385">
+  <suite started-at="2021-08-28T04:59:12 IST" name="SeleniumJava.Hybridframework" finished-at="2021-08-28T04:59:27 IST" duration-ms="14712">
     <groups>
     </groups>
-    <test started-at="2021-08-28T01:26:23 IST" name="Test on chrome" finished-at="2021-08-28T01:26:31 IST" duration-ms="7385">
-      <class name="framework.testCases.TC_LoginTest_01">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@50b472aa]" started-at="2021-08-28T01:26:23 IST" name="setup" finished-at="2021-08-28T01:26:28 IST" duration-ms="4994" status="PASS">
+    <test started-at="2021-08-28T04:59:12 IST" name="Test on chrome" finished-at="2021-08-28T04:59:27 IST" duration-ms="14712">
+      <class name="framework.testCases.TC_LoginDDT_02">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@3daa422a]" started-at="2021-08-28T04:59:13 IST" name="setup" finished-at="2021-08-28T04:59:18 IST" duration-ms="5188" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,75 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@50b472aa]" started-at="2021-08-28T01:26:28 IST" name="loginTest" finished-at="2021-08-28T01:26:30 IST" duration-ms="1657" status="PASS">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@3daa422a]" started-at="2021-08-28T04:59:20 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-08-28T04:59:22 IST" duration-ms="2380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ichiro@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@50b472aa]" started-at="2021-08-28T01:26:30 IST" name="tearDown" finished-at="2021-08-28T01:26:31 IST" duration-ms="458" status="PASS">
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@3daa422a]" started-at="2021-08-28T04:59:22 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-08-28T04:59:24 IST" duration-ms="1965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sakura@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@3daa422a]" started-at="2021-08-28T04:59:24 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-08-28T04:59:25 IST" duration-ms="1138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jun@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pa55w0rd!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@3daa422a]" started-at="2021-08-28T04:59:25 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-08-28T04:59:26 IST" duration-ms="1196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yoshiki@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass-pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@3daa422a]" started-at="2021-08-28T04:59:26 IST" name="tearDown" finished-at="2021-08-28T04:59:27 IST" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- framework.testCases.TC_LoginTest_01 -->
+      </class> <!-- framework.testCases.TC_LoginDDT_02 -->
     </test> <!-- Test on chrome -->
   </suite> <!-- SeleniumJava.Hybridframework -->
 </testng-results>

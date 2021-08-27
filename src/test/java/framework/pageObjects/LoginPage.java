@@ -17,6 +17,10 @@ public class LoginPage {
 		
 	}
 
+	@FindBy(xpath="//*[@id=\"login-holder\"]/a")
+	@CacheLookup
+	WebElement btnLoginMenu;
+
 	@FindBy(name="email")
 	@CacheLookup
 	WebElement txtEmailAddress;
@@ -29,16 +33,17 @@ public class LoginPage {
 	@CacheLookup
 	WebElement btnLogin;
 	
-	@FindBy(name="btnReset")
+	@FindBy(xpath="//*[@id=\"logout-form\"]/button")
 	@CacheLookup
-	WebElement btnReset;
+	WebElement btnLogout;
 	
-	@FindBy(xpath="//*[text()=\"Log out\"]")
-	@CacheLookup
-	WebElement btnLogout;	
+	public void clickLoginMenu() {
+		btnLoginMenu.click();
+		
+	}
 	
-	public void setemailAddress(String uname) {
-		txtEmailAddress.sendKeys(uname);
+	public void setemailAddress(String email) {
+		txtEmailAddress.sendKeys(email);
 		
 	}
 	
@@ -56,5 +61,5 @@ public class LoginPage {
 		btnLogout.click();
 		
 	}
-
+	
 }

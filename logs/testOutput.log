@@ -1,7 +1,22 @@
-[INFO ] 2021-08-28 01:26:26.663 [main] BaseClass - This test is on: chrome browser
-[INFO ] 2021-08-28 01:26:28.942 [main] BaseClass - This test is on Thread : 1
-[INFO ] 2021-08-28 01:26:28.942 [main] BaseClass - URL is Opened
-[INFO ] 2021-08-28 01:26:29.179 [main] BaseClass - Email Address entered
-[INFO ] 2021-08-28 01:26:29.324 [main] BaseClass - password entered
-[INFO ] 2021-08-28 01:26:30.609 [main] BaseClass - title matched
-[INFO ] 2021-08-28 01:26:30.609 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 04:59:16.663 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-08-28 04:59:18.328 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-28 04:59:20.411 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 04:59:20.585 [main] BaseClass - password provided
+[INFO ] 2021-08-28 04:59:21.485 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 04:59:21.486 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 04:59:22.320 [main] BaseClass - user has logout
+[INFO ] 2021-08-28 04:59:22.717 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 04:59:22.864 [main] BaseClass - password provided
+[INFO ] 2021-08-28 04:59:24.158 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 04:59:24.158 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 04:59:24.346 [main] BaseClass - user has logout
+[INFO ] 2021-08-28 04:59:24.656 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 04:59:24.786 [main] BaseClass - password provided
+[INFO ] 2021-08-28 04:59:25.285 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 04:59:25.286 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 04:59:25.475 [main] BaseClass - user has logout
+[INFO ] 2021-08-28 04:59:25.817 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 04:59:25.969 [main] BaseClass - password provided
+[INFO ] 2021-08-28 04:59:26.485 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 04:59:26.485 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 04:59:26.677 [main] BaseClass - user has logout

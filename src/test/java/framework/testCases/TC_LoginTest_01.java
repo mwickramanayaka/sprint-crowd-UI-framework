@@ -14,7 +14,7 @@ public class TC_LoginTest_01 extends framework.BaseClass.BaseClass {
 
 	@Test
 	public void loginTest() throws IOException {
-
+		
 		LoginPage lp = new LoginPage(driver);
 
 		lp.setemailAddress(emailAddress);
@@ -25,7 +25,7 @@ public class TC_LoginTest_01 extends framework.BaseClass.BaseClass {
 		
 		if (driver.getTitle().equals("マイページ | HOTEL PLANISPHERE - テスト自動化練習サイト")) {
 			Assert.assertTrue(true);
-			logger.info("title matched");
+			logger.info("title is matched");
 			logger.info("login test passed");
 			
 		}else {
