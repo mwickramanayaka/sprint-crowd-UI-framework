@@ -1,0 +1,97 @@
+[INFO ] 2021-08-27 14:53:26.235 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-08-27 14:53:43.252 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 14:53:43.253 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 14:53:43.433 [main] BaseClass - username entered
+[INFO ] 2021-08-27 14:53:43.558 [main] BaseClass - password entered 
+[INFO ] 2021-08-27 14:53:57.328 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:53:59.092 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-08-27 14:54:12.105 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 14:54:12.105 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 14:54:13.147 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 14:54:13.334 [main] BaseClass - password provided
+[INFO ] 2021-08-27 14:54:21.598 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:54:21.760 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 14:54:21.907 [main] BaseClass - password provided
+[INFO ] 2021-08-27 14:54:37.007 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:54:37.160 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 14:54:37.287 [main] BaseClass - password provided
+[INFO ] 2021-08-27 14:54:59.653 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:54:59.801 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 14:54:59.920 [main] BaseClass - password provided
+[INFO ] 2021-08-27 14:55:17.109 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:55:19.248 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-08-27 14:55:30.813 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 14:55:30.813 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 14:55:30.967 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 14:55:31.125 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 14:55:43.884 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 14:55:43.997 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 14:55:51.405 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 14:55:51.523 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 14:56:02.910 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 14:56:03.029 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 14:56:12.600 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:56:16.450 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-08-27 14:56:20.446 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 14:56:20.446 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 14:56:20.664 [main] BaseClass - username entered
+[INFO ] 2021-08-27 14:56:20.878 [main] BaseClass - password entered 
+[INFO ] 2021-08-27 14:56:23.958 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:56:26.257 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-08-27 14:56:30.473 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 14:56:30.474 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 14:56:30.988 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 14:56:31.176 [main] BaseClass - password provided
+[INFO ] 2021-08-27 14:56:36.836 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:56:37.021 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 14:56:37.158 [main] BaseClass - password provided
+[INFO ] 2021-08-27 14:56:43.182 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:56:43.319 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 14:56:43.440 [main] BaseClass - password provided
+[INFO ] 2021-08-27 14:56:49.425 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:56:49.556 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 14:56:49.679 [main] BaseClass - password provided
+[INFO ] 2021-08-27 14:56:55.767 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:56:57.865 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-08-27 14:57:03.734 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 14:57:03.734 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 14:57:03.895 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 14:57:04.060 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 14:57:45.067 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 14:57:45.269 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 14:57:59.584 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 14:57:59.723 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 14:58:11.721 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 14:58:11.870 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 14:58:26.290 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:58:34.960 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-08-27 14:58:39.924 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 14:58:39.925 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 14:58:40.186 [main] BaseClass - username entered
+[INFO ] 2021-08-27 14:58:40.318 [main] BaseClass - password entered 
+[INFO ] 2021-08-27 14:58:42.583 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 14:58:50.782 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-08-27 15:00:08.647 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 15:00:08.647 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 15:00:09.270 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 15:00:09.367 [main] BaseClass - password provided
+[INFO ] 2021-08-27 15:00:13.584 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 15:00:14.672 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 15:00:14.755 [main] BaseClass - password provided
+[INFO ] 2021-08-27 15:00:18.646 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 15:00:19.915 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 15:00:20.006 [main] BaseClass - password provided
+[INFO ] 2021-08-27 15:00:23.888 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 15:00:25.491 [main] BaseClass - user name provided
+[INFO ] 2021-08-27 15:00:25.575 [main] BaseClass - password provided
+[INFO ] 2021-08-27 15:00:29.411 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-27 15:00:37.966 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-08-27 15:00:42.222 [main] BaseClass - This test is on Thread : 1
+[INFO ] 2021-08-27 15:00:42.222 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-27 15:00:42.379 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 15:00:42.487 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 15:00:48.919 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 15:00:49.038 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 15:00:54.190 [main] BaseClass - User name is provided
+[INFO ] 2021-08-27 15:00:54.296 [main] BaseClass - Passsword is provided
+[INFO ] 2021-08-27 15:01:04.458 [main] BaseClass - Screenshot taken
