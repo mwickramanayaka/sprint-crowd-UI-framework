@@ -35,10 +35,6 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/**
- * @author manul.wickramanayaka
- *
- */
 public class BaseClass {
 
 	ReadConfig readConfig = new ReadConfig();
@@ -120,37 +116,6 @@ public class BaseClass {
 	public static String randomeNum() {
 		String generatedString2 = RandomStringUtils.randomNumeric(6);
 		return (generatedString2);
-	}
-
-	//execute AutoITScript.exe file
-	public static void AutoIT() throws IOException  {
-
-		Runtime.getRuntime().exec("\\src\\test\\resources\\AutoITScript.exe");
-		logger.info("AutoITScript.exe file is executed");
-
-		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
-				.withTimeout(30, TimeUnit.SECONDS)
-				.pollingEvery(2, TimeUnit.SECONDS)
-				.ignoring(NoSuchElementException.class);
-
-		//Fluent wait till the file is upload
-		element  = wait.until(new Function<WebDriver, WebElement>() {
-
-			public WebElement apply(WebDriver driver) {
-
-				//check whether the uploaded file is present
-				linkElement =  driver.findElement(By.xpath("//span[@title='image.jpg']"));
-
-				if (linkElement.isEnabled()) {
-					logger.info("Uploaded file is visible ");
-
-				}
-				return linkElement;
-			}
-		});
-
-
-
 	}
 
 }

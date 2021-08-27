@@ -6,8 +6,6 @@
 	<artifactId>BaseFramework.eBanking</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<!-- @author manul.wickramanayaka -->
-
 	<!-- plug-ins required for executing tests -->
 	<build>
 		<plugins>

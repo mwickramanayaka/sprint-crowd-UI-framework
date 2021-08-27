@@ -5,12 +5,7 @@ package framework.utilities;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
-
-/**
- * @author manul.wickramanayaka
- *
- */
-
+ 
 public class RetryAnalyzer implements IRetryAnalyzer {
 
 	private int retryCount = 0;

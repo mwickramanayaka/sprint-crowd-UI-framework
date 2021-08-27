@@ -13,12 +13,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import framework.BaseClass.BaseClass;
-
-/**
- * @author manul.wickramanayaka
- *
- */
-
+ 
 public class Reporting extends TestListenerAdapter{
 
 	//create the htmlReporter object 

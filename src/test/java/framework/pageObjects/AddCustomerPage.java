@@ -10,10 +10,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * @author manul.wickramanayaka
- *
- */
 public class AddCustomerPage {
 	
 WebDriver driver;

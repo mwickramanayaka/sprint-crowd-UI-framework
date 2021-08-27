@@ -10,11 +10,7 @@ import org.testng.annotations.Test;
 
 import framework.pageObjects.AddCustomerPage;
 import framework.pageObjects.LoginPage;
-
-/**
- * @author manul.wickramanayaka
- *
- */
+ 
 public class TC_AddCustomerTest_03 extends framework.BaseClass.BaseClass{
 	
 	@Test(retryAnalyzer = framework.utilities.RetryAnalyzer.class)
