@@ -17,15 +17,15 @@ public class LoginPage {
 		
 	}
 
-	@FindBy(name="uid")
+	@FindBy(name="email")
 	@CacheLookup
-	WebElement txtUserName;
+	WebElement txtEmailAddress;
 	
 	@FindBy(name="password")
 	@CacheLookup
 	WebElement txtPassword;
 	
-	@FindBy(name="btnLogin")
+	@FindBy(id="login-button")
 	@CacheLookup
 	WebElement btnLogin;
 	
@@ -37,8 +37,8 @@ public class LoginPage {
 	@CacheLookup
 	WebElement btnLogout;	
 	
-	public void setUserName(String uname) {
-		txtUserName.sendKeys(uname);
+	public void setemailAddress(String uname) {
+		txtEmailAddress.sendKeys(uname);
 		
 	}
 	

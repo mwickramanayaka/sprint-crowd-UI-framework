@@ -17,13 +17,13 @@ public class TC_LoginTest_01 extends framework.BaseClass.BaseClass {
 
 		LoginPage lp = new LoginPage(driver);
 
-		lp.setUserName(userName);
-		logger.info("username entered");
+		lp.setemailAddress(emailAddress);
+		logger.info("Email Address entered");
 		lp.setPassword(password);
-		logger.info("password entered ");
+		logger.info("password entered");
 		lp.clickLogin();
 		
-		if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
+		if (driver.getTitle().equals("マイページ | HOTEL PLANISPHERE - テスト自動化練習サイト")) {
 			Assert.assertTrue(true);
 			logger.info("title matched");
 			logger.info("login test passed");

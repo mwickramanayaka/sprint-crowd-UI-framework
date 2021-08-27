@@ -32,10 +32,10 @@ public class ReadConfig {
 		return url;
 	}
 
-	public String getUserName() {
+	public String getEmailAddress() {
 
-		String userName=pro.getProperty("userName");
-		return userName;
+		String emailAddress=pro.getProperty("emailAddress");
+		return emailAddress;
 	}
 
 	public String getPassword() {

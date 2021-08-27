@@ -18,10 +18,10 @@
 		<documentTitle>Extent</documentTitle>
 
 		<!-- report name - displayed at top-nav -->
-		<reportName>Automation Report</reportName>
+		<reportName>HOTEL PLANISPHERE Automation Report</reportName>
 
 		<!-- report headline - displayed at top-nav, after reportHeadline -->
-		<reportHeadline>eBanking</reportHeadline>
+		<reportHeadline>HOTEL PLANISPHERE</reportHeadline>
 
 		<!-- location of charts in the test view -->
 		<!-- top, bottom -->

@@ -40,7 +40,7 @@ public class BaseClass {
 	ReadConfig readConfig = new ReadConfig();
 
 	public String baseURL = readConfig.getApplicationURL();
-	public String userName = readConfig.getUserName();
+	public String emailAddress = readConfig.getEmailAddress();
 	public String password = readConfig.getPassword();
 	
 	public static WebDriver driver;

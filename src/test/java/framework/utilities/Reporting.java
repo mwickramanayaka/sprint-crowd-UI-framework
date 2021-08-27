@@ -40,7 +40,7 @@ public class Reporting extends TestListenerAdapter{
 		extent.setSystemInfo("Host name","localhost");
 		extent.setSystemInfo("OS","Windows10");
 		extent.setSystemInfo("Environemnt","QA");
-		extent.setSystemInfo("user","manul");
+		extent.setSystemInfo("user","Bhagya");
 
 	}
 
