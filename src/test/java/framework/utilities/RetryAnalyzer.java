@@ -1,6 +1,3 @@
-/**
- * 
- */
 package framework.utilities;
 
 import org.testng.IRetryAnalyzer;

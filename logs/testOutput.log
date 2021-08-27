@@ -1,22 +1,9 @@
-[INFO ] 2021-08-28 04:59:16.663 [main] BaseClass - This test is on: chrome browser
-[INFO ] 2021-08-28 04:59:18.328 [main] BaseClass - URL is Opened
-[INFO ] 2021-08-28 04:59:20.411 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 04:59:20.585 [main] BaseClass - password provided
-[INFO ] 2021-08-28 04:59:21.485 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 04:59:21.486 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 04:59:22.320 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 04:59:22.717 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 04:59:22.864 [main] BaseClass - password provided
-[INFO ] 2021-08-28 04:59:24.158 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 04:59:24.158 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 04:59:24.346 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 04:59:24.656 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 04:59:24.786 [main] BaseClass - password provided
-[INFO ] 2021-08-28 04:59:25.285 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 04:59:25.286 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 04:59:25.475 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 04:59:25.817 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 04:59:25.969 [main] BaseClass - password provided
-[INFO ] 2021-08-28 04:59:26.485 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 04:59:26.485 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 04:59:26.677 [main] BaseClass - user has logout
+[INFO ] 2021-08-28 05:19:27.148 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-08-28 05:19:28.283 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-28 05:19:29.801 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 05:19:29.936 [main] BaseClass - password provided
+[WARN ] 2021-08-28 05:19:30.308 [main] BaseClass - expected title not matched with the actual title
+[ERROR] 2021-08-28 05:19:30.308 [main] BaseClass - login test failed
+[INFO ] 2021-08-28 05:19:30.573 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-28 05:19:35.828 [main] BaseClass - Screenshot taken
+[INFO ] 2021-08-28 05:19:41.069 [main] BaseClass - Screenshot taken

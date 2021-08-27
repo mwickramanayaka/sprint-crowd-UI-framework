@@ -13,7 +13,7 @@ import framework.pageObjects.LoginPage;
 public class TC_LoginTest_01 extends framework.BaseClass.BaseClass {
 
 	@Test
-	public void loginTest() throws IOException {
+	public void loginTest() throws IOException, InterruptedException {
 		
 		LoginPage lp = new LoginPage(driver);
 
@@ -27,6 +27,7 @@ public class TC_LoginTest_01 extends framework.BaseClass.BaseClass {
 			Assert.assertTrue(true);
 			logger.info("title is matched");
 			logger.info("login test passed");
+			Thread.sleep(1000);
 			
 		}else {
 			logger.warn("expected title not matched with the actual title");

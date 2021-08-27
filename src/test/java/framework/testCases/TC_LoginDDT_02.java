@@ -2,7 +2,6 @@ package framework.testCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -27,8 +26,10 @@ public class TC_LoginDDT_02 extends framework.BaseClass.BaseClass{
 			Assert.assertTrue(true);
 			logger.info("title is matched");
 			logger.info("login test passed");
+			Thread.sleep(1000);
 			lp.clickLogout();
 			logger.info("user has logout");
+			Thread.sleep(1000);
 			lp.clickLoginMenu();
 			
 		}else {
