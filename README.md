@@ -6,6 +6,7 @@ run
 ```bash
 testng.xml  
 ```
+--------------------
 run
 ```bash
 run.bat 
