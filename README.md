@@ -4,7 +4,7 @@
 
 run
 ```bash
-testng.xml  
+TestNG.xml  
 ```
 --------------------
 run
