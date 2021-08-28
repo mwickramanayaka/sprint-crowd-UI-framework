@@ -22,6 +22,7 @@ public class TC_LoginTest_01 extends framework.BaseClass.BaseClass {
 		lp.setPassword(password);
 		logger.info("password entered");
 		lp.clickLogin();
+		Thread.sleep(1000);
 		
 		if (driver.getTitle().equals("マイページ | HOTEL PLANISPHERE - テスト自動化練習サイト")) {
 			Assert.assertTrue(true);

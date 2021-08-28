@@ -21,6 +21,7 @@ public class TC_LoginDDT_02 extends framework.BaseClass.BaseClass{
 		lp.setPassword(pwd);
 		logger.info("password provided");
 		lp.clickLogin();
+		Thread.sleep(1000);
 		
 		if (driver.getTitle().equals("マイページ | HOTEL PLANISPHERE - テスト自動化練習サイト")) {
 			Assert.assertTrue(true);
