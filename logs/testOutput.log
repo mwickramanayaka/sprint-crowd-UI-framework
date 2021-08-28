@@ -1,28 +1,28 @@
-[INFO ] 2021-08-28 05:28:54.852 [main] BaseClass - This test is on: chrome browser
-[INFO ] 2021-08-28 05:28:55.982 [main] BaseClass - URL is Opened
-[INFO ] 2021-08-28 05:28:56.253 [main] BaseClass - Email Address entered
-[INFO ] 2021-08-28 05:28:56.382 [main] BaseClass - password entered
-[INFO ] 2021-08-28 05:28:57.753 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:28:57.754 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:29:00.558 [main] BaseClass - This test is on: chrome browser
-[INFO ] 2021-08-28 05:29:02.234 [main] BaseClass - URL is Opened
-[INFO ] 2021-08-28 05:29:03.338 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 05:29:03.466 [main] BaseClass - password provided
-[INFO ] 2021-08-28 05:29:09.058 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:29:09.058 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:29:11.800 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 05:29:13.187 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 05:29:13.337 [main] BaseClass - password provided
-[INFO ] 2021-08-28 05:29:14.655 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:29:14.655 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:29:15.853 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 05:29:17.177 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 05:29:17.300 [main] BaseClass - password provided
-[INFO ] 2021-08-28 05:29:18.664 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:29:18.665 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:29:19.849 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 05:29:21.169 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 05:29:21.288 [main] BaseClass - password provided
-[INFO ] 2021-08-28 05:29:22.572 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:29:22.573 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:29:23.777 [main] BaseClass - user has logout
+[INFO ] 2021-08-28 05:32:34.818 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-08-28 05:32:37.283 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-28 05:32:37.548 [main] BaseClass - Email Address entered
+[INFO ] 2021-08-28 05:32:37.709 [main] BaseClass - password entered
+[INFO ] 2021-08-28 05:32:39.691 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 05:32:39.691 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 05:32:46.621 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-08-28 05:32:47.567 [main] BaseClass - URL is Opened
+[INFO ] 2021-08-28 05:32:48.803 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 05:32:48.930 [main] BaseClass - password provided
+[INFO ] 2021-08-28 05:32:50.281 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 05:32:50.281 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 05:32:51.849 [main] BaseClass - user has logout
+[INFO ] 2021-08-28 05:32:53.216 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 05:32:53.362 [main] BaseClass - password provided
+[INFO ] 2021-08-28 05:32:54.636 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 05:32:54.636 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 05:32:55.847 [main] BaseClass - user has logout
+[INFO ] 2021-08-28 05:32:57.199 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 05:32:57.336 [main] BaseClass - password provided
+[INFO ] 2021-08-28 05:32:58.641 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 05:32:58.642 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 05:32:59.850 [main] BaseClass - user has logout
+[INFO ] 2021-08-28 05:33:01.238 [main] BaseClass - user name provided
+[INFO ] 2021-08-28 05:33:01.361 [main] BaseClass - password provided
+[INFO ] 2021-08-28 05:33:02.633 [main] BaseClass - title is matched
+[INFO ] 2021-08-28 05:33:02.634 [main] BaseClass - login test passed
+[INFO ] 2021-08-28 05:33:03.860 [main] BaseClass - user has logout
