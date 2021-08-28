@@ -1,6 +1,11 @@
 # Selenium-Java-Hybrid-Automation-Framework👨‍💻
 
 ## How to run
+
+run
+```bash
+testng.xml  
+```
 run
 ```bash
 run.bat 
