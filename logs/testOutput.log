@@ -1,28 +1,15 @@
-[INFO ] 2021-08-28 05:32:34.818 [main] BaseClass - This test is on: chrome browser
-[INFO ] 2021-08-28 05:32:37.283 [main] BaseClass - URL is Opened
-[INFO ] 2021-08-28 05:32:37.548 [main] BaseClass - Email Address entered
-[INFO ] 2021-08-28 05:32:37.709 [main] BaseClass - password entered
-[INFO ] 2021-08-28 05:32:39.691 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:32:39.691 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:32:46.621 [main] BaseClass - This test is on: chrome browser
-[INFO ] 2021-08-28 05:32:47.567 [main] BaseClass - URL is Opened
-[INFO ] 2021-08-28 05:32:48.803 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 05:32:48.930 [main] BaseClass - password provided
-[INFO ] 2021-08-28 05:32:50.281 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:32:50.281 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:32:51.849 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 05:32:53.216 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 05:32:53.362 [main] BaseClass - password provided
-[INFO ] 2021-08-28 05:32:54.636 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:32:54.636 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:32:55.847 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 05:32:57.199 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 05:32:57.336 [main] BaseClass - password provided
-[INFO ] 2021-08-28 05:32:58.641 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:32:58.642 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:32:59.850 [main] BaseClass - user has logout
-[INFO ] 2021-08-28 05:33:01.238 [main] BaseClass - user name provided
-[INFO ] 2021-08-28 05:33:01.361 [main] BaseClass - password provided
-[INFO ] 2021-08-28 05:33:02.633 [main] BaseClass - title is matched
-[INFO ] 2021-08-28 05:33:02.634 [main] BaseClass - login test passed
-[INFO ] 2021-08-28 05:33:03.860 [main] BaseClass - user has logout
+[INFO ] 2022-06-12 01:37:49.858 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2022-06-12 01:37:52.756 [main] BaseClass - URL is Opened
+[INFO ] 2022-06-12 01:37:52.957 [main] BaseClass - Email Address entered
+[INFO ] 2022-06-12 01:37:53.058 [main] BaseClass - password entered
+[INFO ] 2022-06-12 01:38:00.296 [main] BaseClass - Event Step-1 completed
+[INFO ] 2022-06-12 01:38:02.385 [main] BaseClass - Event Step-2 completed
+[INFO ] 2022-06-12 01:38:04.470 [main] BaseClass - Event Step-3 completed
+[INFO ] 2022-06-12 01:38:08.694 [main] BaseClass - Image is Uploaded
+[INFO ] 2022-06-12 01:38:11.729 [main] BaseClass - Event Step-4 completed
+[INFO ] 2022-06-12 01:38:15.905 [main] BaseClass - Published
+[INFO ] 2022-06-12 01:38:20.961 [main] BaseClass - title is matched, Your event has been created
+[INFO ] 2022-06-12 01:38:20.961 [main] BaseClass - Event passed
+[INFO ] 2022-06-12 01:38:22.050 [main] BaseClass - Redirected to Dashboard
+[INFO ] 2022-06-12 01:38:29.531 [main] BaseClass - title is matched, Your card apeared in Dashboard
+[INFO ] 2022-06-12 01:38:29.531 [main] BaseClass - Event passed

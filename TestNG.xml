@@ -9,8 +9,7 @@
 	<test name="Test on chrome">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="framework.testCases.TC_LoginTest_01" />
-			<class name="framework.testCases.TC_LoginDDT_02" />
+			<class name="framework.testCases.TC_CreateCrowdRun_HW" />
 		</classes>
 	</test> <!-- Test1 -->
 

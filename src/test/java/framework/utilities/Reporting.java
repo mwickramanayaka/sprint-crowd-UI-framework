@@ -40,7 +40,7 @@ public class Reporting extends TestListenerAdapter{
 		extent.setSystemInfo("Host name","localhost");
 		extent.setSystemInfo("OS","Windows10");
 		extent.setSystemInfo("Environemnt","QA");
-		extent.setSystemInfo("user","Bhagya");
+		extent.setSystemInfo("user","Hansana");
 
 	}
 
@@ -58,7 +58,7 @@ public class Reporting extends TestListenerAdapter{
 		
 		try {
 
-			String screenshotPath = BaseClass.captureScreen(BaseClass.driver, "loginTest");
+			String screenshotPath = BaseClass.captureScreen(BaseClass.driver, "Failer ScreenShot");
 			logger.fail("Screenshot is below :  " + logger.addScreenCaptureFromPath(screenshotPath));
 
 		} 
