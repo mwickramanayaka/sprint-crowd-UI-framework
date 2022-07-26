@@ -1,15 +1,15 @@
-[INFO ] 2022-06-12 01:37:49.858 [main] BaseClass - This test is on: chrome browser
-[INFO ] 2022-06-12 01:37:52.756 [main] BaseClass - URL is Opened
-[INFO ] 2022-06-12 01:37:52.957 [main] BaseClass - Email Address entered
-[INFO ] 2022-06-12 01:37:53.058 [main] BaseClass - password entered
-[INFO ] 2022-06-12 01:38:00.296 [main] BaseClass - Event Step-1 completed
-[INFO ] 2022-06-12 01:38:02.385 [main] BaseClass - Event Step-2 completed
-[INFO ] 2022-06-12 01:38:04.470 [main] BaseClass - Event Step-3 completed
-[INFO ] 2022-06-12 01:38:08.694 [main] BaseClass - Image is Uploaded
-[INFO ] 2022-06-12 01:38:11.729 [main] BaseClass - Event Step-4 completed
-[INFO ] 2022-06-12 01:38:15.905 [main] BaseClass - Published
-[INFO ] 2022-06-12 01:38:20.961 [main] BaseClass - title is matched, Your event has been created
-[INFO ] 2022-06-12 01:38:20.961 [main] BaseClass - Event passed
-[INFO ] 2022-06-12 01:38:22.050 [main] BaseClass - Redirected to Dashboard
-[INFO ] 2022-06-12 01:38:29.531 [main] BaseClass - title is matched, Your card apeared in Dashboard
-[INFO ] 2022-06-12 01:38:29.531 [main] BaseClass - Event passed
+[INFO ] 2022-07-26 08:27:12.152 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2022-07-26 08:27:14.407 [main] BaseClass - URL is Opened
+[INFO ] 2022-07-26 08:27:14.538 [main] BaseClass - Email Address entered
+[INFO ] 2022-07-26 08:27:14.619 [main] BaseClass - password entered
+[INFO ] 2022-07-26 08:27:20.402 [main] BaseClass - Event Step-1 completed
+[INFO ] 2022-07-26 08:27:22.474 [main] BaseClass - Event Step-2 completed
+[INFO ] 2022-07-26 08:27:24.572 [main] BaseClass - Event Step-3 completed
+[INFO ] 2022-07-26 08:27:28.749 [main] BaseClass - Image is Uploaded
+[INFO ] 2022-07-26 08:27:30.839 [main] BaseClass - Event Step-4 completed
+[INFO ] 2022-07-26 08:27:35.045 [main] BaseClass - Published
+[INFO ] 2022-07-26 08:27:40.625 [main] BaseClass - title is matched, Your event has been created
+[INFO ] 2022-07-26 08:27:40.626 [main] BaseClass - Event passed
+[INFO ] 2022-07-26 08:27:41.695 [main] BaseClass - Redirected to Dashboard
+[INFO ] 2022-07-26 08:27:48.966 [main] BaseClass - title is matched, Your card apeared in Dashboard
+[INFO ] 2022-07-26 08:27:48.966 [main] BaseClass - Event passed
