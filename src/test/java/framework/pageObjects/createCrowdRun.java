@@ -6,7 +6,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-@SuppressWarnings("PMD.ignoreEnumDeclarations")
+@SuppressWarnings("PMD.FIELDDECLARATIONSSHOULDBEATSTARTOFCLASS")
 public class createCrowdRun {
     WebDriver driver;
 
