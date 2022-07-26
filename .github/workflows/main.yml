@@ -1,36 +1,27 @@
-# This is a basic workflow to help you get started with Actions
+# For most projects, this workflow file will not need changing; you simply need
+# to commit it to your repository.
+#
+# You may wish to alter this file to override the set of languages analyzed,
+# or to provide custom queries or build logic.
+name: "CodeQL"
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: [master]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  check-quality:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    name: A job to check the code quality
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    - name: check code meets quaity standerds 
+      id: code-inspector
+      uses: actions/checkout@v3
+      with:
+        min_quality_grade: 'GOOD'
+	      min_quality_score: '80'
+		    max_defects_rate: '0.0001'
+		    max_complex_functions_rate: '0.0001'
+		    max_long_functions_rate: '0.0001'
+		    project_name: 'sprint-crowd-UI-framework'
+		    max_timeout_sec: '600'
