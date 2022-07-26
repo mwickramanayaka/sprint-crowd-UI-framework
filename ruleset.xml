@@ -1,7 +1,7 @@
 <rule ref="category/java/codestyle.xml/FieldDeclarationsShouldBeAtStartOfClass">
     <properties>
-        <property name="ignoreEnumDeclarations" value="true" />
-        <property name="ignoreAnonymousClassDeclarations" value="true" />
+        <property name="ignoreEnumDeclarations" value="false" />
+        <property name="ignoreAnonymousClassDeclarations" value="false" />
         <property name="ignoreInterfaceDeclarations" value="false" />
     </properties>
 </rule>
