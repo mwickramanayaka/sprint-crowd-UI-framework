@@ -6,7 +6,6 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-@SuppressWarnings("PMD.ignoreAnonymousClassDeclarations")
 public class createCrowdRun {
     WebDriver driver;
 
@@ -18,46 +17,46 @@ public class createCrowdRun {
 
     @FindBy(name = "sprintName")
     @CacheLookup
-    WebElement txtEventName;
+    WebElement txtEventName;//NOPMD
 
     @FindBy(name = "description")
     @CacheLookup
-    WebElement txtEventdescription;
+    WebElement txtEventdescription;//NOPMD
 
     @FindBy(xpath = "//*[text()=\"Next\"]")
-    WebElement btnNext;
+    WebElement btnNext;//NOPMD
 
     @FindBy(xpath = "//input[@type=\"file\"]")
     @CacheLookup
-    WebElement btnUpload;
+    WebElement btnUpload;//NOPMD
 
     @FindBy(xpath = "//*[text()=\"Select online\"]")
     @CacheLookup
-    WebElement btnSelectOnline;
+    WebElement btnSelectOnline;//NOPMD
 
     @FindBy(xpath = "//img[@alt=\"person running on top on hill during daytime\"]")
     @CacheLookup
-    WebElement imgUpload;
+    WebElement imgUpload;//NOPMD
 
     @FindBy(xpath = "//*[text()=\"Confirm\"]")
     @CacheLookup
-    WebElement btnConfirm;
+    WebElement btnConfirm;//NOPMD
 
     @FindBy(xpath = "//*[text()=\"Summary\"]")
     @CacheLookup
-    WebElement btnSummary;
+    WebElement btnSummary;//NOPMD
 
     @FindBy(xpath = "//*[text()=\"Publish\"]")
     @CacheLookup
-    WebElement btnPublish;
+    WebElement btnPublish;//NOPMD
 
     @FindBy(xpath = "//*[text()=\"Your event has been created\"]")
     @CacheLookup
-    WebElement CreatedEventTitle;
+    WebElement CreatedEventTitle;//NOPMD
 
     @FindBy(xpath = "//*[text()=\"Done\"]")
     @CacheLookup
-    WebElement btnDone;
+    WebElement btnDone;//NOPMD
     ////
 
     public void setEventName(String name) {
