@@ -43,8 +43,8 @@ public class TC_CreateCrowdRun_HW extends framework.BaseClass.BaseClass {
         ccr.clickSelectOnline();
         Thread.sleep(2000);
         ccr.uploadImg();
-        logger.info("Image is Uploaded");
-        Thread.sleep(2000);
+        logger.info("Image Uploaded");
+        Thread.sleep(3000);
         ccr.clickConfirm();
         Thread.sleep(2000);
 
