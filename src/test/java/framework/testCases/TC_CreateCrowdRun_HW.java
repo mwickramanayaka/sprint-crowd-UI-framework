@@ -17,7 +17,6 @@ public class TC_CreateCrowdRun_HW extends framework.BaseClass.BaseClass {
     String cardName = "Selenium Test Event";
 
     @Test
-    @SuppressWarnings("PMD")
     public void CrowdRunTest() throws IOException, InterruptedException {
 
         LoginPage lp = new LoginPage(driver);
@@ -63,40 +62,8 @@ public class TC_CreateCrowdRun_HW extends framework.BaseClass.BaseClass {
         logger.info("Published");
         Thread.sleep(5000);
 
-        //Object need to change according to card name
-        if (ccr.checkCreatedEventTitle().equals("Your event has been created")) {
-            Assert.assertTrue(true);
-            logger.info("title is matched, Your event has been created");
-            logger.info("Event passed");
-            Thread.sleep(1000);
-
-        } else {
-            logger.warn("expected title not matched with the actual title, Your event has not been created");
-            logger.error("Event failed");
-            Assert.assertTrue(false);
-
-        }
-
         ccr.clickDone();
         logger.info("Redirected to Dashboard");
         Thread.sleep(2000);
-
-        db.searchName(cardName);
-        Thread.sleep(5000);
-
-        if (db.CheckCardName().equals("Selenium Test Event")) {
-            Assert.assertTrue(true);
-            logger.info("title is matched, Your card apeared in Dashboard");
-            logger.info("Event passed");
-            Thread.sleep(1000);
-
-        } else {
-            logger.warn("expected title not matched with the actual title, Your card has not apeared in Dashboard");
-            logger.error("Event failed");
-            Assert.assertTrue(false);
-
-        }
-
-
     }
 }
