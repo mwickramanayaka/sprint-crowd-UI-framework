@@ -19,15 +19,15 @@ public class LoginPage {
 
 	@FindBy(id="formGroupEmail")
 	@CacheLookup
-	WebElement txtEmailAddress;
+	WebElement txtEmailAddress;//NOPMD
 	
 	@FindBy(id="formGroupPassword")
 	@CacheLookup
-	WebElement txtPassword;
+	WebElement txtPassword;//NOPMD
 	
 	@FindBy(xpath="//*[text()=\"Login\"]")
 	@CacheLookup
-	WebElement btnLogin;
+	WebElement btnLogin;//NOPMD
 	
 	public void setemailAddress(String email) {
 		txtEmailAddress.sendKeys(email);

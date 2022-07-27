@@ -9,7 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 public class dashboard {
 
     WebDriver driver;
-	
+	String name;
+
 	public dashboard(WebDriver rdriver){
 		driver=rdriver;
 		PageFactory.initElements(rdriver, this);
@@ -18,15 +19,15 @@ public class dashboard {
 
 	@FindBy(xpath="//*[text()=\"Create Crowd Run\"]")
 	@CacheLookup
-	WebElement btnCreateCrowdRun; 
+	WebElement btnCreateCrowdRun; //NOPMD
  
 	@FindBy(xpath = "//*[text()=\"Selenium Test Event\"]")
     @CacheLookup
-    WebElement cardName;
+    WebElement cardName;//NOPMD
 
 	@FindBy(xpath = "//input[@class=\"search_search__2QreV\"]")
     @CacheLookup
-    WebElement txtName;
+    WebElement txtName;//NOPMD
  
 	//
 	
@@ -36,8 +37,7 @@ public class dashboard {
 	}
 
 	public String CheckCardName() {
-		String name = cardName.getText();
-		return name;
+		return name = cardName.getText();
 	}
 
 	public void searchName(String name) {

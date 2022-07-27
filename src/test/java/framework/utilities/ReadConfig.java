@@ -16,7 +16,7 @@ public class ReadConfig {
 		File src = new File("./Configuration/config.properties");
 
 		try {
-			FileInputStream fis = new FileInputStream(src);
+			FileInputStream fis = new FileInputStream(src);//NOPMD
 			pro = new Properties();
 			pro.load(fis);
 			
@@ -28,44 +28,44 @@ public class ReadConfig {
 
 	public String getApplicationURL() {
 
-		String url=pro.getProperty("baseURL");
-		return url;
+		return pro.getProperty("baseURL");
+//		return url;
 	}
 
 	public String getEmailAddress() {
 
-		String emailAddress=pro.getProperty("emailAddress");
-		return emailAddress;
+		return pro.getProperty("emailAddress");
+//		return emailAddress;
 	}
 
 	public String getPassword() {
 
-		String password=pro.getProperty("password");
-		return password;
+		return pro.getProperty("password");
+//		return password;
 	}
 
 	public String getChromePath() {
 
-		String chromePath=pro.getProperty("chromePath");
-		return chromePath;
+		return pro.getProperty("chromePath");
+//		return chromePath;
 	}
 
 	public String getEdgePath() {
 
-		String edgePath=pro.getProperty("edgePath");
-		return edgePath;
+		return pro.getProperty("edgePath");
+//		return edgePath;
 	}
 
 	public String getFirefoxPath() {
 
-		String firefoxPath=pro.getProperty("firefoxPath");
-		return firefoxPath;
+		return pro.getProperty("firefoxPath");
+//		return firefoxPath;
 	}
 	
 	public String getOperaPath() {
 
-		String operaPath=pro.getProperty("operaPath");
-		return operaPath;
+		return pro.getProperty("operaPath");
+//		return operaPath;
 	}
 
 }

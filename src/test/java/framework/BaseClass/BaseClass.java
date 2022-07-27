@@ -49,16 +49,16 @@ public class BaseClass {
 
 		logger = LogManager.getLogger(BaseClass.class);	
 
-		if(br.equalsIgnoreCase("chrome")) {
+		if(br.equalsIgnoreCase("chrome")) {//NOPMD
 			System.setProperty("webdriver.chrome.driver", readConfig.getChromePath() );
 			driver = new ChromeDriver();
-		}else if(br.equalsIgnoreCase("firefox")) {
+		}else if(br.equalsIgnoreCase("firefox")) {//NOPMD
 			System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxPath() );
 			driver = new FirefoxDriver();
-		}else if(br.equalsIgnoreCase("edge")) {
+		}else if(br.equalsIgnoreCase("edge")) {//NOPMD
 			System.setProperty("webdriver.edge.driver", readConfig.getEdgePath() );
 			driver = new EdgeDriver();
-		}else if(br.equalsIgnoreCase("opera")) {
+		}else if(br.equalsIgnoreCase("opera")) {//NOPMD
 			System.setProperty("webdriver.opera.driver", readConfig.getOperaPath() );
 			driver = new OperaDriver();
 		}

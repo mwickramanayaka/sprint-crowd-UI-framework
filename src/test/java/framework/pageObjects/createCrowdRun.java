@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class createCrowdRun {
     WebDriver driver;
+    String title;
 
     public createCrowdRun(WebDriver rdriver) {
         driver = rdriver;
@@ -105,8 +106,7 @@ public class createCrowdRun {
     }
 
     public String checkCreatedEventTitle() {
-        String title = CreatedEventTitle.getText();
-        return title;
+        return title = CreatedEventTitle.getText();
     }
 
     public void clickDone() {

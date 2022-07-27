@@ -27,8 +27,8 @@ public class XLUtils {
 
   public XLUtils(String xlfile) {
 	  
-	  XLUtils.xlfile = xlfile;
-	  
+	  XLUtils.xlfile = xlfile;//NOPMD
+
   }
 	
 	public int getRowCount(String xlsheet) throws IOException 
