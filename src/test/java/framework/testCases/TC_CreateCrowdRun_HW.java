@@ -12,12 +12,12 @@ import framework.pageObjects.LoginPage;
 import framework.pageObjects.createCrowdRun;
 import framework.pageObjects.dashboard;
 
-@SuppressWarnings("PMD")
 public class TC_CreateCrowdRun_HW extends framework.BaseClass.BaseClass {
 
     String cardName = "Selenium Test Event";
 
     @Test
+    @SuppressWarnings("PMD")
     public void CrowdRunTest() throws IOException, InterruptedException {
 
         LoginPage lp = new LoginPage(driver);
