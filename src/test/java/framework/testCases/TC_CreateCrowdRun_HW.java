@@ -34,26 +34,18 @@ public class TC_CreateCrowdRun_HW extends framework.BaseClass.BaseClass {
         ccr.setEventName(cardName);
         ccr.setEventDescription("Test Description");
         Thread.sleep(2000);
-
         ccr.clickNext();
-        logger.info("Event Step-1 completed");
         Thread.sleep(2000);
-
         ccr.clickNext();
-        logger.info("Event Step-2 completed");
         Thread.sleep(2000);
-
         ccr.clickNext();
-        logger.info("Event Step-3 completed");
         Thread.sleep(2000);
-
         ccr.clickSelectOnline();
         Thread.sleep(2000);
         ccr.uploadImg();
         logger.info("Image is Uploaded");
         Thread.sleep(2000);
         ccr.clickConfirm();
-        logger.info("Event Step-4 completed");
         Thread.sleep(2000);
 
         ccr.clickSummary();
@@ -63,7 +55,6 @@ public class TC_CreateCrowdRun_HW extends framework.BaseClass.BaseClass {
         Thread.sleep(5000);
 
         ccr.clickDone();
-        logger.info("Redirected to Dashboard");
-        Thread.sleep(2000);
+        Thread.sleep(5000);
     }
 }
