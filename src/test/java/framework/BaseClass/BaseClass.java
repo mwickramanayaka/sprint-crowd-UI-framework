@@ -86,7 +86,7 @@ public class BaseClass {
 
 	public static String captureScreen(WebDriver driver, String tname) throws IOException {
 
-		String dateName = new SimpleDateFormat("yyyy-MM-dd/hh.mm.ss").format(new Date());
+		String dateName = new SimpleDateFormat("yyyy-MM-dd/hh.mm.ss").format(new Date());//NOPMD
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 
