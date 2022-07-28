@@ -30,24 +30,19 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class BaseClass {
-
 	ReadConfig readConfig = new ReadConfig();
-
 	public String baseURL = readConfig.getApplicationURL();
 	public String emailAddress = readConfig.getEmailAddress();
 	public String password = readConfig.getPassword();
-	
 	public static WebDriver driver;
     public static WebElement element;
 	public static WebElement linkElement;
-
 	public static Logger logger;
 
 	@Parameters("browser")
 	@BeforeClass
 	public void setup(String br) {
-
-		logger = LogManager.getLogger(BaseClass.class);	
+		logger = LogManager.getLogger(BaseClass.class);
 
 		if(br.equalsIgnoreCase("chrome")) {//NOPMD
 			System.setProperty("webdriver.chrome.driver", readConfig.getChromePath() );
@@ -64,10 +59,8 @@ public class BaseClass {
 		}
 
 		logger.info("This test is on: "+br+" browser");
-		
-		//set position of current window to the secondary screen 
+		//set position of current window to the secondary screen
 		//driver.manage().window().setPosition(new Point(-1500, 0));
-
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -78,14 +71,11 @@ public class BaseClass {
 
 	@AfterClass
 	public void tearDown() {
-
 		driver.close();
 		driver.quit();
-
 	}
 
 	public static String captureScreen(WebDriver driver, String tname) throws IOException {
-
 		String dateName = new SimpleDateFormat("yyyy-MM-dd/hh.mm.ss").format(new Date());//NOPMD
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
@@ -100,10 +90,8 @@ public class BaseClass {
 
 	//generate random string
 	public String randomString() {
-
 		String generateString = RandomStringUtils.randomAlphabetic(8);
 		return (generateString);
-
 	}
 
 	//generate random number
@@ -111,5 +99,4 @@ public class BaseClass {
 		String generatedString2 = RandomStringUtils.randomNumeric(6);
 		return (generatedString2);
 	}
-
 }

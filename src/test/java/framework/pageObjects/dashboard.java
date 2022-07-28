@@ -7,14 +7,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class dashboard {
-
     WebDriver driver;
 	String name;
 
-	public dashboard(WebDriver rdriver){
-		driver=rdriver;
-		PageFactory.initElements(rdriver, this);
-		
+	public dashboard(WebDriver rDriver){
+		driver=rDriver;
+		PageFactory.initElements(rDriver, this);
 	}
 
 	@FindBy(xpath="//*[text()=\"Create Crowd Run\"]")
@@ -33,7 +31,6 @@ public class dashboard {
 	
     public void clickCreateCrowdRun() {
 		btnCreateCrowdRun.click();
-		
 	}
 
 	public String CheckCardName() {
@@ -42,7 +39,6 @@ public class dashboard {
 
 	public void searchName(String name) {
         txtName.sendKeys(name);
-
     }
  
 }

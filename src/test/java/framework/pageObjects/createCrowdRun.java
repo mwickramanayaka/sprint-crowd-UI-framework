@@ -10,10 +10,9 @@ public class createCrowdRun {
     WebDriver driver;
     String title;
 
-    public createCrowdRun(WebDriver rdriver) {
-        driver = rdriver;
-        PageFactory.initElements(rdriver, this);
-
+    public createCrowdRun(WebDriver rDriver) {
+        driver = rDriver;
+        PageFactory.initElements(rDriver, this);
     }
 
     @FindBy(name = "sprintName")
@@ -22,7 +21,7 @@ public class createCrowdRun {
 
     @FindBy(name = "description")
     @CacheLookup
-    WebElement txtEventdescription;//NOPMD
+    WebElement txtEventDescription;//NOPMD
 
     @FindBy(xpath = "//*[text()=\"Next\"]")
     WebElement btnNext;//NOPMD
@@ -62,47 +61,38 @@ public class createCrowdRun {
 
     public void setEventName(String name) {
         txtEventName.sendKeys(name);
-
     }
 
     public void setEventDescription(String description) {
-        txtEventdescription.sendKeys(description);
-
+        txtEventDescription.sendKeys(description);
     }
 
     public void clickNext() {
         btnNext.click();
-
     }
 
     public void clickUpload() {
         btnUpload.click();
-
     }
 
     public void clickSelectOnline() {
         btnSelectOnline.click();
-
     }
 
     public void uploadImg() {
         imgUpload.click();
-
     }
 
     public void clickConfirm() {
         btnConfirm.click();
-        
     }
 
     public void clickSummary() {
         btnSummary.click();
-        
     }
 
     public void clickPublish() {
         btnPublish.click();
-        
     }
 
     public String checkCreatedEventTitle() {
@@ -111,6 +101,5 @@ public class createCrowdRun {
 
     public void clickDone() {
         btnDone.click();
-        
     }
 }

@@ -8,13 +8,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-	
 	WebDriver driver;
 	
-	public LoginPage(WebDriver rdriver){
-		driver=rdriver;
-		PageFactory.initElements(rdriver, this);
-		
+	public LoginPage(WebDriver rDriver){
+		driver=rDriver;
+		PageFactory.initElements(rDriver, this);
 	}
 
 	@FindBy(id="formGroupEmail")
@@ -29,19 +27,16 @@ public class LoginPage {
 	@CacheLookup
 	WebElement btnLogin;//NOPMD
 	
-	public void setemailAddress(String email) {
+	public void setEmailAddress(String email) {
 		txtEmailAddress.sendKeys(email);
-		
 	}
 	
 	public void setPassword(String pwd) {
 		txtPassword.sendKeys(pwd);
-		
 	}
 	
 	public void clickLogin() {
 		btnLogin.click();
-		
 	}
 
 }

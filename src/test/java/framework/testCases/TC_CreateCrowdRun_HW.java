@@ -1,6 +1,3 @@
-/**
- *
- */
 package framework.testCases;
 
 import java.io.IOException;
@@ -13,17 +10,15 @@ import framework.pageObjects.createCrowdRun;
 import framework.pageObjects.dashboard;
 
 public class TC_CreateCrowdRun_HW extends framework.BaseClass.BaseClass {
-
     String cardName = "Selenium Test Event";
 
     @Test
     public void CrowdRunTest() throws IOException, InterruptedException {
-
         LoginPage lp = new LoginPage(driver);
         dashboard db = new dashboard(driver);
         createCrowdRun ccr = new createCrowdRun(driver);
 
-        lp.setemailAddress(emailAddress);
+        lp.setEmailAddress(emailAddress);
         logger.info("Email Address entered");
         lp.setPassword(password);
         logger.info("password entered");
