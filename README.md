@@ -1,4 +1,4 @@
-# Selenium-Java-Hybrid-Automation-Framework👨‍💻
+# sprint-crowd-UI-framework👨‍💻
 
 ## How to run
 
