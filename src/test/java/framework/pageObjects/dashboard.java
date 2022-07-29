@@ -26,16 +26,14 @@ public class dashboard {
 	@FindBy(xpath = "//input[@class=\"search_search__2QreV\"]")
     @CacheLookup
     WebElement txtName;//NOPMD
- 
-	//
 	
     public void clickCreateCrowdRun() {
 		btnCreateCrowdRun.click();
 	}
 
 	public String CheckCardName() {
-		return cardName.getText();
-//		return name;
+		String name = cardName.getText();
+		return name;
 	}
 
 	public void searchName(String name) {

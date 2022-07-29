@@ -57,7 +57,6 @@ public class createCrowdRun {
     @FindBy(xpath = "//*[text()=\"Done\"]")
     @CacheLookup
     WebElement btnDone;//NOPMD
-    ////
 
     public void setEventName(String name) {
         txtEventName.sendKeys(name);
@@ -96,8 +95,8 @@ public class createCrowdRun {
     }
 
     public String checkCreatedEventTitle() {
-        return CreatedEventTitle.getText();
-//        return title;
+        String title = CreatedEventTitle.getText();
+        return title;
     }
 
     public void clickDone() {
