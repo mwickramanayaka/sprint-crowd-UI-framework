@@ -34,7 +34,8 @@ public class dashboard {
 	}
 
 	public String CheckCardName() {
-		return name = cardName.getText();
+		String name = cardName.getText();
+		return name;
 	}
 
 	public void searchName(String name) {

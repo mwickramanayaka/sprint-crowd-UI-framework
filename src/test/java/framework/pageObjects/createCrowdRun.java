@@ -96,7 +96,8 @@ public class createCrowdRun {
     }
 
     public String checkCreatedEventTitle() {
-        return title = CreatedEventTitle.getText();
+        String title = CreatedEventTitle.getText();
+        return title;
     }
 
     public void clickDone() {
